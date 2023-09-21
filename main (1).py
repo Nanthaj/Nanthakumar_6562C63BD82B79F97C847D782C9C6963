@@ -1,13 +1,9 @@
-def factorial(x):
-    """This is a recursive function
-    to find the factorial of an integer"""
-
-    if x == 1:
-        return 1
-    else:
-      
-        return (x * factorial(x-1))
-
-num = 6
-result = factorial(num)
-print("The factorial of", num, "is", result)
+English = 9.1  
+Hindi = 8.5  
+Maths = 9.5  
+Science =9.6;  
+SocialStudy = 8.6  
+CGPA = (9.1+8.5+9.5+9.6+8.6)/(5.0)  
+CGPAper = 9.5 * (CGPA)  
+print(" CGPA percentage is:");  
+print(CGPAper);
